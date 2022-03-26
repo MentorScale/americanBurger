@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #593122;
+  --secondary-color: #fdc243;
+  --tertiary-color: #dc1915;
+  --primary-font: 'Alfa Slab One',cursive;
+  --secondary-font:'Bebas Neue',cursive;
+  --tertiary-font:'Montserrat',sans-serif;
+  --primary-weight:400;
+  --secondary-weight:200;
+  --primary-size:2rem;
+  --secondary-size:1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 1em;
+  background-color: var(--secondary-color);
+  height: 50vh;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.logo_name {
+    display:flex;
+    
+    height:50px;
+     
+}
+
+
+.navbar {
+    display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+   
+}
+
+.navmenu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width:50%;
+  
+  
+
+}
+.items > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: large;
+  letter-spacing: 3px;
+  
+}
+.header_content {
+    display:flex;
+    flex-direction: row;
+    color:var(--primary-color);
+}
+.content {
+    display:flex;
+    flex-direction: column;
+}
+.content>.dotted{
+    border:2px var(--primary-color) dashed;
+}
+.burger {
+    font-weight: var(--primary-weight);
+    font-size: var(--primary-size);
+}
+.try {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
