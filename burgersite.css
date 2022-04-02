@@ -121,11 +121,8 @@
    opacity: 0.9;
    box-sizing: border-box;
    position:absolute;
-   top:0;
-   
-  
+   top:0; 
 } 
-
 .logo{
     display:flex;
     align-items: center;
@@ -283,10 +280,11 @@ line-height: 1;
 }
 .burger {
     text-shadow: 1px 5px 5px white;
+    font-size: 10vw;
    
 }
 .burger-small {
-    font-size: var(--tertiary-size);
+    font-size: 6vw;
     font-weight: var(--secondary-weight);   
 }
 .main {
@@ -626,14 +624,13 @@ line-height: 1;
   display:flex; 
   height:30vh;          
     flex-direction: row; 
-    flex:1 1 auto; 
-     width:100%;
+    flex:0 0 auto; 
+     width:100vw;
     align-items: flex-start;
-    justify-content: center;
- 
-    margin-left: 1em;
-       
+    justify-content: center; 
+    margin-left: 1em;       
     position:relative;
+    min-width:300px;
     
   }
            .fries,.mainburger,.drinks {
@@ -655,10 +652,10 @@ line-height: 1;
 }
 .drinks {
     width:20%;
-    height:25vh;
-  bottom:30px;
+    
+  top:90px;
     left:50%;
-    top:50px;
+     
     bottom:0;
     right:0;
  
@@ -676,12 +673,7 @@ line-height: 1;
                 align-items: center;
                 justify-content: center;
            }
-           .burger{
-               font-size:2.8rem;
-           }
-           .burger-small{
-               font-size: 1.5rem;
-           }
+            
            .popularl,.popular_r,.popular--s{
                display:flex;
                flex:1 1 100%;
