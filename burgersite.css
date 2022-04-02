@@ -110,67 +110,7 @@
      transition:opacity 250ms ease-in-out 100ms ;
 
  }
-
- /* @media screen and (min-width:480px){
-
-    .navmenu {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  align-items: center;  
-  background-color: transparent;
-  justify-content: space-between;
-  width:100%;
-  position:relative;
-
-} 
-
-    .nav {
-        all:unset;
-        grid-column: 3/4;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        
-       
-    }
-    .nav__list {
-        display: flex;   
-      
-    }
-    .nav__item {
-        margin-bottom:0;
-        margin-left: 3em;
-    }
-    .nav .nav__link {
-        opacity:1;
-        position:relative;
-         
-      
-    }
-
-       .nav__link::before {
-        content:'';
-        display:block;
-        height:5px;
-        position:absolute;
-        background:black;
-        right:0;
-        left:0;
-        top:-.75em;
-        transform:scale(0,1);
-        transition:transform ease-in-out 250ms;
-         
-    }
-
-    .nav__link:hover::before  {
-        transform:scale(1,1);
-    }
-
-
- } */
-
- 
+  
  .header::after {
     content:'';
     display:flex;
